@@ -3,3 +3,9 @@ h1{
 	background-color: black;
 	text-align: center;	
 }
+
+div.projects {
+	display: flex;
+  	align-items: center;
+  	justify-content: center
+}
