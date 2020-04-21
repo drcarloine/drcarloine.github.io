@@ -4,14 +4,8 @@ h1{
 	text-align: center;	
 }
 
-body {
-	margin: 0 auto;
-}
-
 div.projects {
-	position absolute;
-	left: 50%;
-	margin-left -50%;
+	padding-left 10%;
 }
 
 #orpheus {
