@@ -5,7 +5,5 @@ h1{
 }
 
 div.projects {
-	display: flex;
-  	align-items: center;
-  	justify-content: center
+	margin: 0 auto;
 }
