@@ -4,6 +4,12 @@ h1{
 	text-align: center;	
 }
 
+body {
+	position: absolute;
+	left: 50%;
+	margin-left: 50%;
+}
+
 div.projects {
 	position absolute;
 	left: 50%;
