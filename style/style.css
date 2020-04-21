@@ -5,9 +5,7 @@ h1{
 }
 
 body {
-	position: absolute;
-	left: 50%;
-	margin-left: 50%;
+	margin: 0 auto;
 }
 
 div.projects {
