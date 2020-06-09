@@ -38,7 +38,7 @@ p {
 
 
 /*FOR MOBILE*/
-@media only screen and (max-width: 828px){
+@media only screen and (min-width: 200px){
     
     .aboutme {
         padding-bottom: 10px;
@@ -61,14 +61,14 @@ p {
     /*Set up grid look*/
     .grid-container {
         display: grid;
-        grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
+        grid-template-columns: 5% 1fr 1fr 1fr 1fr 1fr 5%;
         grid-template-rows: 100px 100px 200px auto;
         grid-gap: 10px;
     }
 
     #pagehead {
         grid-column-start: 1;
-        grid-column-end: 7;
+        grid-column-end: 8;
         margin-left: 20%;
         margin-right: 20%;
         column-span: all;
@@ -78,7 +78,7 @@ p {
     
     .aboutme {
         grid-column-start: 1;
-        grid-column-end: 7;
+        grid-column-end: 8;
         margin-left: 20%;
         margin-right: 20%;
         grid-row-start: 2;
@@ -88,7 +88,7 @@ p {
     #projects {
         margin-top: 10%;
         grid-column-start: 1;
-        grid-column-end: 7;
+        grid-column-end: 8;
         grid-row-start: 3;   
     }
 
@@ -142,27 +142,39 @@ p {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row-start: 4;
-        grid-row-end: 4;
 
     }
 
     #project1:hover {
         grid-column-start: 2;
-        grid-column-end: 5;
+        grid-column-end: 4;
         grid-row-start: 4;
 
     }
 
 
     #project2 {
-        grid-column-start: 5;
-        grid-column-end: 6;
+        grid-column-start: 4;
+        grid-column-end: 5;
         grid-row-start: 4;
     }
 
     #project2:hover {
         grid-column-start: 3;
         grid-column-end: 6;
+        grid-row-start: 4;
+
+    }
+    
+    #project3 {
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 4;
+    }
+
+    #project3:hover {
+        grid-column-start: 5;
+        grid-column-end: 7;
         grid-row-start: 4;
 
     }
