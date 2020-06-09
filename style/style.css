@@ -148,7 +148,7 @@ p {
 
     #project1:hover {
         grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-end: 5;
         grid-row-start: 4;
 
     }
@@ -161,7 +161,7 @@ p {
     }
 
     #project2:hover {
-        grid-column-start: 4;
+        grid-column-start: 3;
         grid-column-end: 6;
         grid-row-start: 4;
 
