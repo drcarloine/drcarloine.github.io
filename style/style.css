@@ -7,128 +7,166 @@ h1{
 
 h2 {
     font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
 }
 
-/*div.projects {
-	padding-left 10%;
-}*/
-/*Set up grid look*/
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px auto;
-    grid-gap: 20px;
+p {
+    font-family: sans-serif;
+   
 }
 
 .grid-item h3 {
     font-family: sans-serif;
     text-align: center;
-    color: white;
-    padding-top: 40%;
    
 }
-
-.grid-item p {
-    font-family: sans-serif;
-   
-}
-
-/*Set background colour to black until user hovers over it*/
-.grid-item {
-    background: lightblue;
-}
-
-.grid-item:hover {
-    background: white;
-}
-.grid-item:hover h3{
-    padding-top: 0%;
-    color: black;
-}
-
-/*Set description of project invisible until use hovers over it*/
-.projectcontent {
-    visibility: collapse;
-}
-
-.grid-item:hover .projectcontent {
-    visibility: visible;
-}
-
-#pagehead {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 1;
-    column-span: all;
-    padding: 10px;
-}
-
-#projects {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    text-align: center;
-    text-decoration: underline;
-    grid-row-start: 2;
-    grid-row-end: 2;
     
-}
-
-.grid-item {
-    padding: 10px;
-    border-color: lightblue;
-    border-style: solid;
-    border-width: medium;
-    height: 300px;
-    width: 300px;
-}
-.grid-item:hover {
-    border-color: lightskyblue;
-    border-width: thick;
-    height: auto;
-    width: auto;
-}
-
-#project1 {
-    margin-left: 10%;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-
-}
-
-#project1:hover {
-    grid-column-start: 1;
-    grid-column-end: 3;
-
-}
 
 #earvideo {
     width: 100%;
 	height: auto;
     
 }
-#project2 {
-    margin-right: 10%;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 3;
-}
-
-#project2:hover {
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 3;
-
-}
-
 
 #orpheus {
 	width: 100%;
 	height: auto;	
 }
 
+
+
+
+/*FOR MOBILE*/
+@media only screen and (max-width: 767px){
+    
+    .aboutme {
+        padding-bottom: 10px;
+    }
+    
+    .grid-item {
+    padding-bottom: 10%;
+    padding-top: 10%;
+    border-bottom-color: black;
+    border-bottom: solid;
+      
+    }
+
+    
+}
+
+/*FOR LAPTOP*/
+@media only screen and (min-width: 768px){
+    
+    /*Set up grid look*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 10% 1fr 1fr 1fr 1fr 10%;
+        grid-template-rows: 100px 100px 200px auto;
+        grid-gap: 10px;
+    }
+
+    #pagehead {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        margin-left: 20%;
+        margin-right: 20%;
+        column-span: all;
+        padding: 10px;
+
+    }
+    
+    .aboutme {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        margin-left: 20%;
+        margin-right: 20%;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    
+    #projects {
+        margin-top: 10%;
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;   
+    }
+
+    .grid-item h3 {
+        font-family: sans-serif;
+        text-align: center;
+        color: white;
+        padding-top: 40%;
+
+    }
+
+    /*Set background colour to black until user hovers over it*/
+    .grid-item {
+        background: lightblue;
+    }
+
+    .grid-item:hover {
+        background: white;
+    }
+    .grid-item:hover h3{
+        padding-top: 0%;
+        color: black;
+    }
+
+    /*Set description of project invisible until use hovers over it*/
+    .projectcontent {
+        visibility: collapse;
+    }
+
+    .grid-item:hover .projectcontent {
+        visibility: visible;
+    }
+
+
+    .grid-item {
+        padding: 10px;
+        border-color: lightblue;
+        border-style: solid;
+        border-width: medium;
+        height: 300px;
+        width: 300px;
+    }
+    .grid-item:hover {
+        border-width: thick;
+        height: auto;
+        width: auto;
+    }
+
+    #project1 {
+
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 4;
+
+    }
+
+    #project1:hover {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 4;
+
+    }
+
+
+    #project2 {
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 4;
+    }
+
+    #project2:hover {
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 4;
+
+    }
+
+}
 
 
