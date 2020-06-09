@@ -38,7 +38,7 @@ p {
 
 
 /*FOR MOBILE*/
-@media only screen and (min-width: 200px){
+@media only screen and (max-width: 828px){
     
     .aboutme {
         padding-bottom: 10px;
