@@ -2,7 +2,7 @@ h1{
     font-family: sans-serif;
 	color: white;
 	background-color: black;
-	text-align: center;	
+	text-align: center;
 }
 
 h2 {
@@ -13,25 +13,25 @@ h2 {
 
 p {
     font-family: sans-serif;
-   
+
 }
 
 .grid-item h3 {
     font-family: sans-serif;
     text-align: center;
-   
+
 }
-    
+
 
 #earvideo {
     width: 100%;
 	height: auto;
-    
+
 }
 
 #orpheus {
 	width: 100%;
-	height: auto;	
+	height: auto;
 }
 
 
@@ -39,25 +39,25 @@ p {
 
 /*FOR MOBILE*/
 @media only screen and (max-width: 828px){
-    
+
     .aboutme {
         padding-bottom: 10px;
     }
-    
+
     .grid-item {
     padding-bottom: 10%;
     padding-top: 10%;
     border-bottom-color: black;
     border-bottom: solid;
-      
+
     }
 
-    
+
 }
 
 /*FOR LAPTOP*/
 @media only screen and (min-width: 829px){
-    
+
     /*Set up grid look*/
     .grid-container {
         display: grid;
@@ -75,7 +75,7 @@ p {
         padding: 10px;
 
     }
-    
+
     .aboutme {
         grid-column-start: 1;
         grid-column-end: 8;
@@ -84,12 +84,12 @@ p {
         grid-row-start: 2;
         grid-row-end: 2;
     }
-    
+
     #projects {
         margin-top: 10%;
         grid-column-start: 1;
         grid-column-end: 8;
-        grid-row-start: 3;   
+        grid-row-start: 3;
     }
 
     .grid-item h3 {
@@ -103,6 +103,7 @@ p {
     /*Set background colour to black until user hovers over it*/
     .grid-item {
         background: lightblue;
+
     }
 
     .grid-item:hover {
@@ -165,7 +166,7 @@ p {
         grid-row-start: 4;
 
     }
-    
+
     #project3 {
         grid-column-start: 6;
         grid-column-end: 7;
@@ -180,5 +181,3 @@ p {
     }
 
 }
-
-
